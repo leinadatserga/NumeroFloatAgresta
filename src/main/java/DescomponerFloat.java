@@ -19,7 +19,6 @@ public class DescomponerFloat {
         // Separar los números posteriores al punto decimal y asignarlos a la variable parteDecimal
         String parteDecimal = input.substring(input.indexOf('.') + 1);
 
-
         // Mostrar separadamente la parte entera y decimal del valor ingresado
         System.out.println("La parte entera del valor es: " + parteEntera);
         System.out.println("La parte decimal del valor es: " + parteDecimal);
